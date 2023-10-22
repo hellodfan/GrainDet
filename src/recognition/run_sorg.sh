@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 python src/train.py --model_name tasn --save_name tasn_sorg --phase train --data_path /home/GrainSet/sorg

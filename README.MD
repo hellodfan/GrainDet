@@ -4,6 +4,42 @@
 This repository contains detailed information of our paper entitled "***AV4GAINsp***: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains". This paper has submitted to IEEE RA-L paper (under review).
 
 
+
+# Code
+
+## Train
+All code are stored in `src` folder, and the detailed train and test scrpits can be found in the corresponding sub-folder **README.md**:
+- recognition (The recognition code of our proposed three-stage framework, thanks for [TASN](https://github.com/researchmm/tasn) providing the trilinear attention code)
+- mmdetection (Faster RCNN, YoloX, Mask RCNN, RTMDet)
+- SAM
+
+## Evaluate
+Please read `src/eval/README.md`.
+
+
+## Data
+
+- For single-kernel images, the dataset (processed oriented and single-kernel images) can be found (below).
+
+
+- For raw images, we have provided XML files in VOC format and JSON files in COCO format. It should be noted that the XML file corresponds to annotations for a single image, while the JSON file corresponds to annotations for two sides combined.You can also convert XML files to JSON files through `parsexml.py` and `makecoco.py`.
+  - [raw-wheat(10.2G)](https://doi.org/10.6084/m9.figshare.24416965.v1)
+  - [raw-sorghum(7.1G)](https://doi.org/10.6084/m9.figshare.24416932.v1)
+  - [raw-rice(6.8G)](https://doi.org/10.6084/m9.figshare.24417526.v1)
+
+## Pre-trained models
+
+- Recognition: [google drive (450M)](https://drive.google.com/drive/folders/1r09p1oy1DqmJ-7J7Clpmm7FeK5UZiOQ0?usp=sharing) including training checkpoints.
+- Faster R-CNN: [google drive (960M)](https://drive.google.com/drive/folders/1rx3wcZEFFJnByOwvliVmhPY4Mz1_0aja?usp=share_link) including training checkpoints.
+- YoloX: [google drive (870M)](https://drive.google.com/drive/folders/1xIfecTlboBr76PZfguLS3qWIPm2o5EM2?usp=sharing) including training checkpoints.
+- Mask R-CNN: [google drive (1G)](https://drive.google.com/drive/folders/1WHjB9GE8QIPQ-vDA4NPcsex8vu3gjoPK?usp=share_link) including training checkpoints.
+- RTMDet: [google drive (1.2G)](https://drive.google.com/drive/folders/1y-dpm_C_Rh6tYFw2XLPNAqzVC6M5dx_i?usp=sharing) including training checkpoints.
+- SAM: [google drive (1.G)](https://drive.google.com/drive/folders/1eVu0y_I_TMUM_y9WjguwOUlWKL3Z2WTg?usp=sharing) including training checkpoints.
+
+
+
+
+
 # Data Acquisition
 
 ## Overview

@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=6 python test.py base_configs/wheat_rtmdet.py checkpoints/wheat_rtmdet.pth --out results/wheat_rtmdet.pkl
+CUDA_VISIBLE_DEVICES=6 python test.py base_configs/wheat_yolox.py checkpoints/wheat_yolox.pth --out results/wheat_yolox.pkl

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python src/train.py --model_name tasn --save_name tasn_wheat --phase train --data_path /home/GrainSet/wheat

@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=3 python test.py base_configs/sorg_rtmdet.py checkpoints/sorg_rtmdet.pth --out results/sorg_rtmdet.pkl
+CUDA_VISIBLE_DEVICES=3 python test.py base_configs/sorg_yolox.py checkpoints/sorg_yolox.pth --out results/sorg_yolox.pkl

@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=7 python test.py base_configs/rice_frcnn.py checkpoints/rice_frcnn.pth --out results/rice_frcnn.pkl
+CUDA_VISIBLE_DEVICES=7 python test.py base_configs/rice_yolox.py checkpoints/rice_yolox.pth --out results/rice_yolox.pkl

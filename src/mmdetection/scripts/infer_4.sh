@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=4 python test.py base_configs/wheat_frcnn.py checkpoints/wheat_frcnn.pth --out results/wheat_frcnn.pkl
+CUDA_VISIBLE_DEVICES=4 python test.py base_configs/wheat_maskrcnn.py checkpoints/wheat_maskrcnn.pth --out results/wheat_maskrcnn.pkl
