@@ -1,7 +1,7 @@
 
 # Overview
 
-This repository contains detailed information on our IEEE RA-L paper entitled "***AV4GAINsp***: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains".
+This repository contains detailed information on our *IEEE RA-L* paper entitled ***AV4GAINsp*: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains**.
 
 
 
@@ -220,3 +220,53 @@ calc_kappa.py
 |  **DeviceID**   	| $D_1$ 	| $D_2$ 	| $D_1$ 	| $D_2$ 	| $D_1$ 	| $D_2$ 	|
 | $J_1$ 	|  Kappa_0.949 ![](figs/R1_wheat_T1,R2_wheat_T1_S1,SampleID_Sample4,Kappa_0.949_matrix.png)   	| Kappa_0.913 ![](figs/R1_wheat_T2,R2_wheat_T2_S1,SampleID_Sample4,Kappa_0.913_matrix.png)   	| Kappa_0.925  ![](figs/R1_wheat_T1,R2_wheat_T1_S1,SampleID_Sample5,Kappa_0.925_matrix.png)   	| Kappa_0.902 ![](figs/R1_wheat_T2,R2_wheat_T2_S1,SampleID_Sample5,Kappa_0.902_matrix.png)    	|  Kappa_0.895 ![](figs/R1_wheat_T1,R2_wheat_T1_S1,SampleID_Sample6,Kappa_0.895_matrix.png)    	|   Kappa_0.867 ![](figs/R1_wheat_T2,R2_wheat_T2_S1,SampleID_Sample6,Kappa_0.867_matrix.png)  	|
 | $J_2$ 	|  Kappa_0.953 ![](figs/R1_wheat_T1,R2_wheat_T1_S2,SampleID_Sample4,Kappa_0.953_matrix.png)  	| Kappa_0.921 ![](figs/R1_wheat_T2,R2_wheat_T2_S2,SampleID_Sample4,Kappa_0.921_matrix.png)   	|  Kappa_0.937 ![](figs/R1_wheat_T1,R2_wheat_T1_S2,SampleID_Sample5,Kappa_0.937_matrix.png)   	|Kappa_0.908  ![](figs/R1_wheat_T2,R2_wheat_T2_S2,SampleID_Sample5,Kappa_0.908_matrix.png)    	|   Kappa_0.904 ![](figs/R1_wheat_T1,R2_wheat_T1_S2,SampleID_Sample6,Kappa_0.904_matrix.png)  	| Kappa_0.878 ![](figs/R1_wheat_T2,R2_wheat_T2_S2,SampleID_Sample6,Kappa_0.878_matrix.png)    	|
+
+
+# Citations
+
+If our paper has been of assistance, we would appreciate it if you could consider citing it in your work.
+
+```
+
+@article{fan2023av4gainsp,
+  title={AV4GAInsp: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains},
+  author={Fan, Lei and Ding, Yiwen and Fan, Dongdong and Wu, Yong and Chu, Hongxia and Pagnucco, Maurice and Song, Yang},
+  journal={IEEE Robotics and Automation Letters},
+  year={2023},
+  publisher={IEEE}
+}
+
+
+
+@inproceedings{fan2022grainspace,
+  title={GrainSpace: A Large-scale Dataset for Fine-grained and Domain-adaptive Recognition of Cereal Grains},
+  author={Fan, Lei and Ding, Yiwen and Fan, Dongdong and Di, Donglin and Pagnucco, Maurice and Song, Yang},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={21116--21125},
+  year={2022}
+}
+
+@article{fan2023annotated,
+  title={An annotated grain kernel image database for visual quality inspection},
+  author={Fan, Lei and Ding, Yiwen and Fan, Dongdong and Wu, Yong and Chu, Hongxia and Pagnucco, Maurice and Song, Yang},
+  journal={Scientific Data},
+  volume={10},
+  number={1},
+  pages={778},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+
+@incollection{fan2023ai4graininsp,
+  title={Identifying the Defective: Detecting Damaged Grains for Cereal Appearance Inspection},
+  author={Fan, Lei and Ding, Yiwen and Fan, Dongdong and Wu, Yong and Pagnucco, Maurice and Song, Yang},
+  booktitle={ECAI 2023},
+  year={2023},
+  publisher={IOS Press}
+}
+
+
+
+
+```
