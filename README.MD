@@ -1,14 +1,14 @@
 
 # Overview
 
-This repository contains detailed information of our paper entitled "***AV4GAINsp***: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains". This paper has submitted to IEEE RA-L paper (under review).
+This repository contains detailed information on our IEEE RA-L paper entitled "***AV4GAINsp***: An Efficient Dual-Camera System for Identifying Defective Kernels of Cereal Grains".
 
 
 
 # Code
 
 ## Train
-All code are stored in `src` folder, and the detailed train and test scrpits can be found in the corresponding sub-folder **README.md**:
+All codes are stored in `src` folder, and the detailed train and test scripts can be found in the corresponding sub-folder **README.md**:
 - recognition (The recognition code of our proposed three-stage framework, thanks for [TASN](https://github.com/researchmm/tasn) providing the trilinear attention code)
 - mmdetection (Faster RCNN, YoloX, Mask RCNN, RTMDet)
 - SAM
@@ -47,7 +47,7 @@ Please read `src/eval/README.md`.
  ![](figs/protocol.png)
 
 - **Sample Collection**
-  - Crops are havested and transported into the grain centers
+  - Crops are harvested and transported into the grain centers
   - Raw grains are sampled to extract laboratory samples
   - Laboratory samples are further pre-processed by using handed tools, such as sieves, fans, tweezers
 - **Image Acquisition**
@@ -75,7 +75,7 @@ Please read `src/eval/README.md`.
 
 <!-- 
 ## Video for Acquisition Phase
-$ A complete data acquisition for a labortory samples YouTube.
+$ A complete data acquisition for a laboratory samples YouTube.
 --> 
 
 
